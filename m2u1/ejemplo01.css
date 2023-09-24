@@ -1,0 +1,33 @@
+/* font-family: 'Croissant One', cursive;
+FAMILIA DE FUENTE*/
+
+
+.caja{
+    /*background-color: yellowgreen;*/
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 35px;
+    background: rgb(2,0,36); /*https://cssgradient.io/*/
+    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(9,85,121,1) 29%, rgba(0,212,255,1) 92%);
+    box-shadow: 10px 10px 5px black; /*ejeX - ejeY - desenfoque - color*/
+    /*si queres que la sombra vaya para abajo, ponemos los componentes en negativo*/
+    border-radius: 20px 0px; /*https://cssgenerator.org/*/ 
+}
+
+div{
+    background-color: brown;
+    column-count: 2; /*colocar en columna el texto*/
+    column-gap: 100px; /*distancia entre columna y columna*/
+    column-rule: 3px solid white;
+}
+
+h2{
+    color: aqua;
+    font-family: 'Croissant One', cursive;
+}
+
+.tamanio{
+    font-size: 100px;
+    color: red;
+}
