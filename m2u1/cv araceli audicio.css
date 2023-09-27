@@ -6,9 +6,11 @@
 
 h1{
     color:aqua;
-    background-color: black;
     text-align: center;
     font-family: 'Shadows Into Light', cursive;
+    width: 100%;
+    font-size: 50px;
+    -webkit-text-stroke:.5px black;
 }
 
 #imagen{
