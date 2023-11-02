@@ -84,16 +84,15 @@ nav ul li a.activo{
     width: 50%;
 }
 
-.texto_bienvenido{
+.texto_bienvenidos{
     width: 50%;
 }
 
-.texto_bienvenido h2{
+.texto_bienvenidos h2{
     text-align: center;
 
 }
 
 .parrafo_bienvenido {
-
-
+    text-align: center;
 }
