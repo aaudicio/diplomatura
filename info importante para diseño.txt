@@ -1,0 +1,13 @@
+para poner una caja con bordes redondeados y sombra aca:
+https://cssgenerator.org/box-shadow-css-generator.html
+
+para hacer degrade de colores de la estructura que quiera aca:
+https://cssgradient.io/
+
+y para poner iconitos de home, correo y esos chiquitos: 
+tengo que entrar aca:
+https://fontawesome.com/icons y ademas en el cuerpo haber copiado en el link esto:
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+paleta de colores para nina
+https://paletadecolores.com.ar/paleta/ffadc6/d485a0/a95e79/7e3653/530e2c/
