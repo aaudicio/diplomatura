@@ -82,7 +82,6 @@ nav ul li a.activo{
     display:flex;
     flex-direction: row;
     padding: 0 10px ;
-    
 }
 
 .homeimg{
@@ -99,6 +98,7 @@ nav ul li a.activo{
 .texto_bienvenidos h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    font-size: 30px;
 }
 
 .parrafo_bienvenido {
@@ -115,14 +115,33 @@ nav ul li a.activo{
     /*text-align: center;*/
     font-family:Verdana;
     color:whitesmoke;
-    border-radius: 20px;
-    /*background: rgb(255,173,198);*/
-    /*background: linear-gradient(90deg, rgba(255,173,198,1) 0%, rgba(169,94,121,1) 50%, rgba(83,14,44,1) 100%);*/
+    /*border-radius: 10px;*/
     box-shadow: 10px 15px 10px #530e2c;
-    padding: 10px;
-    border-radius: 64px 0px 58px 0px;
-    -webkit-border-radius: 64px 0px 58px 0px;
-    -moz-border-radius: 64px 0px 58px 0px;
+    padding: 5px;
+    border-radius: 0px 64px 0px 64px;
+    border: 10px;
+    margin: 0px 5px;
+    -webkit-border-radius: 0px 64px 0px 64px;
+    -moz-border-radius: 0px 64px 0px 64px;
     border: 12px double #ffadc6;
+    background: rgb(255,173,198);
+    background: linear-gradient(148deg, rgba(255,173,198,1) 0%, rgba(169,94,121,1) 48%, rgba(126,54,83,1) 92%);
+    
 }
 
+.fotoYani{
+    background-color: #a95e79;
+    border-radius: 0px 0px 0px 0px;
+    border: 12px double #ffadc6;
+    margin-left: 3%;
+    box-shadow: -12px 14px 10px 3px rgba(83,14,44,0.82);
+    -webkit-box-shadow: -12px 14px 13px 3px rgba(83,14,44,0.82);
+    -moz-box-shadow: -12px 14px 13px 3px rgba(83,14,44,0.82);
+}
+
+.yoYaniNina{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    margin-left: 3%;
+    color: #530e2c;
+}
