@@ -1,10 +1,12 @@
 //import React from 'react';
 
+import '../styles/estilos_nina.css'
+import '../styles/normalize.css'
+
 const QuienSoyPage = (props) => {
     return (
-        <div>
             <main>
-                <h2 className="yoYaniNina"> <i class="fa-regular fa-heart" style="color: #530e2c;"></i> Soy... Yani... Nina...</h2>
+                <h2 className="yoYaniNina">Soy... Yani... Nina...</h2>
                 <div className="infoyFoto">
                     <div class="fotoYani">
                         <img src="/images/Yani.jpeg" width="170" alt="Yani" />
@@ -30,7 +32,7 @@ const QuienSoyPage = (props) => {
                     </div>
                 </div>
             </main>
-        </div>
+        
     );
 }
 
