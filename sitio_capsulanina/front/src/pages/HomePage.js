@@ -1,5 +1,9 @@
 //import React from 'react';
 
+import '../styles/estilos_nina.css'
+
+import '../styles/normalize.css'
+
 const HomePage = (props) => {
     return (
         <main className="holder"> 
@@ -9,8 +13,7 @@ const HomePage = (props) => {
             <div className="columnas">
                 <div className="bienvenidos">
                     <h2>bienvenidos</h2>
-                    <p>Lorem </p>
-                    <p>Lorem </p>
+                     
                 </div>
                     
             </div>
