@@ -1,1 +1,22 @@
-<h1>proximamente el armado del login</h1>
+<div class="container" style=""margin-top:100px;>
+    <div class="rom">
+        <form action="/admin/login" method="post">
+            <div class="mb-3 row">
+                <div class="col-sm-10">
+                    <input type="text" class="form-control mt-3" id="inputUser"
+                            placeholder="Usuario" name="usuario">
+                </div>
+            </div>
+            <div class="mb- row">
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword"
+                    placeholder="Contraseña" name="password">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Ingresar</button>
+        </form>
+        {{#if error}}
+            <p>Usuario y/o contraseña incorrectos</p>
+        {{/if}}
+    </div>
+</div>
